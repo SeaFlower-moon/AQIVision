@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<title>地图数据可视化</title>
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../static/css/data_statistic_01.css" />
+	<script src="../static/js/echarts.js"></script>
+	<script src="../static/js/china.js"></script>
+</head>
+
+<body class="bg01">
+<header class="header">
+	<h3>3</h3>
+	<nav>
+		<div id="left">
+			<div><a href="data_statistic_01.html">全国</a></div>
+			<div><a href="data_statistic_02.html">按钮</a></div>
+			<div><a href="data_statistic_03.html">按钮</a></div>
+		</div>
+		<div id="right">
+			<div><a href="data_statistic_04.html">按钮</a></div>
+			<div><a href="data_statistic_05.html">按钮</a></div>
+			<div><a href="data_statistic_06.html">按钮</a></div>
+		</div>
+	</nav>
+
+</header>
+
+<div class="wrapper">
+	<div class="container-fluid">
+		<div class="row fill-h">
+			<div class="col-lg-3 fill-h">
+				<div class="xpanel-wrapper xpanel-wrapper-2">
+					<div class="xpanel">
+						<div class="fill-h" id="flyMap">666</div>
+					</div>
+				</div>
+				<div class="xpanel-wrapper xpanel-wrapper-2">
+					<div class="xpanel">
+						<div class="fill-h" id="worldMap">555</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 fill-h">
+				<div class="xpanel-wrapper xpanel-wrapper-1">
+					<div class="xpanel">
+						<div class="fill-h" id="scatterMap">444</div>
+						<script src="../static/js/chinacitymap.js"></script>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 fill-h">
+				<div class="xpanel-wrapper xpanel-wrapper-3">
+					<div class="xpanel">
+						<div class="fill-h" id="provinceMap">333</div>
+					</div>
+				</div>
+				<div class="xpanel-wrapper xpanel-wrapper-3">
+					<div class="xpanel">
+						<div class="fill-h" id="cityMap">222</div>
+					</div>
+				</div>
+				<div class="xpanel-wrapper xpanel-wrapper-3">
+					<div class="xpanel">
+						<div class="fill-h" id="countyMap">111</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>

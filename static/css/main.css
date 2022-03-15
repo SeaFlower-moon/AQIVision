@@ -1,0 +1,121 @@
+
+body{
+    margin: 50%;
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+#title{
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top:0;
+    left: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color:lightblue;
+}
+#aqi{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    bottom: 50px;
+    left: 30%;
+    text-align: center;
+}
+#pm25{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top:10%;
+    left: 0;
+    text-align: center;
+}
+#pm10{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top:40%;
+    left: 0;
+    text-align: center;
+
+}
+#o3{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#no2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top:10%;
+    right:0;
+    text-align: center;
+}
+#so2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top:40%;
+    right:0;
+    text-align: center;
+}
+#co{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom:0;
+    right:0;
+    text-align: center;
+}#local{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:10%;
+    left: 30%;
+    text-align: center;
+ }
+ #time{
+     position: absolute;
+     width: 30%;
+     height: 10%;
+     top:0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: right;
+     color: green;
+ }
+ .num{
+     width: 25%;
+     float:left;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: aquamarine;
+     font-size: 20px;
+ }
+ .txt {
+     width: 25%;
+     float: left;
+     font-family: "幼圆";
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: wheat;
+ }
+ .txt h2{
+     margin: 0;
+ }
+.local_position h2 {
+    color: powderblue;
+}
+.local_position h3 {
+    color: powderblue;
+}

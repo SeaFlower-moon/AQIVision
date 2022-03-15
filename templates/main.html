@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>污染物动态监控</title>
+    <link href="../static/css/main.css" rel="stylesheet"/>
+    <script src="../static/js/jquery-1.7.2.js"></script>
+    <script src="../static/js/echarts.js"></script>
+    <script src="../static/js/china.js"></script>
+    <script src="../static/js/main.js"></script>
+
+
+    <!-- 引入anti在线资源 -->
+    <script type="text/javascript" src="https://unpkg.com/@antv/g2plot@latest/dist/g2plot.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@antv/l7plot@latest/dist/umd/l7plot.min.js"></script>
+    <script>
+        const { Gauge,Line ,WordCloud} = G2Plot;
+        const { Dot ,Area} = L7Plot;
+    </script>
+</head>
+<body>
+
+        <div id="title">污染物动态监控</div>
+        <div id="aqi"></div>
+        <script src="../static/js/chinacitymap.js"></script>
+        <div id="pm25"></div>
+        <script src="../static/js/multiline.js"></script>
+        <div id="pm10"></div>
+        <script src="../static/js/historyaqi.js"></script>
+
+        <div id="o3">O3</div>
+        <div id="no2">NO2</div>
+        <div id="so2">SO2</div>
+        <div id="co"></div>
+
+        <div id="local">
+            <div class="local_position"><h2>当前ip:</h2><h3>???</h3></div>
+            <div class="num"><h1>???</h1></div>
+            <div class="num"><h1>???</h1></div>
+            <div class="num"><h1>???</h1></div>
+            <div class="num"><h1>???</h1></div>
+            <div class="txt"><h2>温度</h2></div>
+            <div class="txt"><h2>湿度</h2></div>
+            <div class="txt"><h2>空气压力</h2></div>
+            <div class="txt"><h2>风力</h2></div>
+        </div>
+        <div id="time">???</div>
+
+</body>
+</html>
